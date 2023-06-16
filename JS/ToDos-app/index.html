@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--This meta tag specifies the character encoding for the document-->
+    <meta charset="UTF-8" />
+    <!--ensures that the page is rendered properly on different devices by adjusting the width to the device width-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>ToDos</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <!--defer attribute indicates that the script should be executed after the HTML document has been parsed-->
+  </head>
+
+  <body>
+    <h1>ToDoz📝</h1>
+    <form id="form">
+      <input 
+        type="text" 
+        id="input" 
+        class="input" 
+        placeholder="Enter your ToDo" 
+        autocomplete="off" />
+      <ul class="todoz" id="todos"></ul>
+      
+    </form>
+    <small>Left Click to mark as Compeleted! <br/>
+        Right Click to remove ToDo!</small>
+  </body>
+</html>
